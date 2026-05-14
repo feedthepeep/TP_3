@@ -16,15 +16,15 @@ def main():
             break
         if event == 'Andrey':
             window.hide()
-            And.run()      # <-- вызываем функцию из модуля Кэт
+            And.run()
             window.un_hide()
         elif event == 'Makc':
             window.hide()
-            Max.run()  # <-- вызываем функцию из модуля Кэт
+            Max.run()
             window.un_hide()
         elif event == 'Saif':
             window.hide()
-            TPK.run()  # <-- вызываем функцию из модуля Кэт
+            TPK.run()
             window.un_hide()
     window.close()
 
